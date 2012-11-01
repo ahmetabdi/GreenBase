@@ -1,0 +1,40 @@
+﻿Build started 01/11/2012 16:09:01.
+     1>Project "F:\Projects\Visual Studio Projects\Le greenarrow base\Disco\Disco.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Disco.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XKARRAKAFINALBASE_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cMain.cpp
+         cMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\Visual Studio Projects\Le greenarrow base\Release\Disco.dll" /INCREMENTAL:NO /NOLOGO /FORCE kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Disco.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Projects\Visual Studio Projects\Le greenarrow base\Release\Disco.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\Visual Studio Projects\Le greenarrow base\Release\Disco.lib" /MACHINE:X86 /DLL Release\cHelpers.obj
+         Release\cMain.obj
+         Release\ADE32.obj
+         Release\cDetour.obj
+         Release\cMenu.obj
+         mlde32.obj
+     1>cMenu.obj : warning LNK4006: "struct D3DTLVERTEX __cdecl CreateD3DTLVERTEX(float,float,float,float,unsigned long,float,float)" (?CreateD3DTLVERTEX@@YA?AUD3DTLVERTEX@@MMMMKMM@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::Reset(void)" (?Reset@cDraw@@QAEXXZ) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::Text(char *,float,float,int,int,bool,unsigned long,unsigned long)" (?Text@cDraw@@QAEXPADMMHH_NKK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::FillRGBA(float,float,float,float,float,float,float,float,unsigned long,unsigned long,unsigned long,unsigned long)" (?FillRGBA@cDraw@@QAEXMMMMMMMMKKKK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::FillRGBA(float,float,float,float,float,float,float,float,unsigned long)" (?FillRGBA@cDraw@@QAEXMMMMMMMMK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::FillRGBA(float,float,float,float,unsigned long,unsigned long,unsigned long,unsigned long)" (?FillRGBA@cDraw@@QAEXMMMMKKKK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::FillRGBA(float,float,float,float,unsigned long)" (?FillRGBA@cDraw@@QAEXMMMMK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::Circle(float,float,float,bool,unsigned long)" (?Circle@cDraw@@QAEXMMM_NK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::Box(float,float,float,float,float,float,bool,unsigned long,unsigned long)" (?Box@cDraw@@QAEXMMMMMM_NKK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::Line(float,float,float,float,unsigned long)" (?Line@cDraw@@QAEXMMMMK@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: bool __thiscall cDraw::Font(void)" (?Font@cDraw@@QAE_NXZ) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::AddFont(char *,float,bool,bool)" (?AddFont@cDraw@@QAEXPADM_N1@Z) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::FontReset(void)" (?FontReset@cDraw@@QAEXXZ) already defined in cMain.obj; second definition ignored
+     1>cMenu.obj : warning LNK4006: "public: void __thiscall cDraw::OnLostDevice(void)" (?OnLostDevice@cDraw@@QAEXXZ) already defined in cMain.obj; second definition ignored
+     1>F:\Projects\Visual Studio Projects\Le greenarrow base\Release\Disco.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+         Disco.vcxproj -> F:\Projects\Visual Studio Projects\Le greenarrow base\Release\Disco.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Projects\Visual Studio Projects\Le greenarrow base\Release\Disco.dll;#2" /manifest Release\Disco.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Disco.unsuccessfulbuild".
+         Touching "Release\Disco.lastbuildstate".
+     1>Done Building Project "F:\Projects\Visual Studio Projects\Le greenarrow base\Disco\Disco.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.11

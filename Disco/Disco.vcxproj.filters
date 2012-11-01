@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{162cd4bc-68b3-44df-ad95-3df9812d9383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Detours">
+      <UniqueIdentifier>{7462d47a-89b0-48cd-83f0-1e4915c2bb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{71dd1c5c-a086-4c07-8e42-d181ac83a4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extra">
+      <UniqueIdentifier>{797669c3-27ab-4349-a254-1eb3ce26220f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{76a71e79-4813-4599-84f0-b39029169e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detours">
+      <UniqueIdentifier>{ecea667e-e47a-4e55-a109-a23d158c87fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extra">
+      <UniqueIdentifier>{0a69a6ea-9dcb-4819-a575-00ed5e7e0bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{28fa858a-5230-4c4a-a277-eeb17e05dbc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMain.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ADE32.cpp">
+      <Filter>Source Files\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="cDetour.cpp">
+      <Filter>Source Files\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="cMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="cHelpers.cpp">
+      <Filter>Source Files\Extra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cAddys.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cHacks.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cMain.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ADE32.h">
+      <Filter>Header Files\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="cDetour.h">
+      <Filter>Header Files\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="cPragma.h">
+      <Filter>Header Files\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="vTableD3D9.h">
+      <Filter>Header Files\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cOptions.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cHelpers.h">
+      <Filter>Header Files\Extra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="mlde32.obj" />
+  </ItemGroup>
+</Project>
